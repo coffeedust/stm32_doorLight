@@ -36,6 +36,7 @@ void app() {
 		// 값비교
 		if(distance <= 5) {
 			timeoutDoor = 5000;
+			// color branch입니다.
 			HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, 1);
 		}
 		// 타임아웃
